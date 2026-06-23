@@ -15,8 +15,6 @@ function AddBooks() {
   // Navigation
   const navigate = useNavigate();
 
-
-
   // Form state
   const [formData, setFormData] = useState({
 
