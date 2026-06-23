@@ -1,16 +1,164 @@
-# React + Vite
+https://github.com/deepakgoyal106/BookProject
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📚 Online Library System
 
-Currently, two official plugins are available:
+A responsive online library system built using **React + Vite + Redux Toolkit + React Router + Tailwind CSS**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application allows users to browse books, search books, view book details, and add new books using Redux state management.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+### 🏠 Home Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Welcome message
+* Book categories
+* Popular books displayed as cards
+* View details option
+
+### 📖 Browse Books
+
+* Browse books by category
+* Dynamic routing
+* Search books by:
+
+  * Title
+  * Author
+* Responsive book cards
+
+### 📘 Book Details
+
+* Displays:
+
+  * Book title
+  * Author
+  * Category
+  * Description
+  * Rating
+* Back to browse option
+
+### ➕ Add Book
+
+* Add new books
+* Redux state management
+* Form validation
+* Automatically redirects after adding
+
+### ❌ Error Page
+
+* Handles invalid routes
+* Shows page not found message
+* Navigation back to home
+
+---
+
+## 🛠️ Technologies Used
+
+* React.js
+* Vite
+* React Router DOM
+* Redux Toolkit
+* React Redux
+* Tailwind CSS
+* JavaScript (ES6)
+
+---
+
+## 📂 Project Structure
+
+```
+src
+│
+├── components
+│   ├── Header.jsx
+│   └── Error.jsx
+│
+├── pages
+│   ├── HomePage.jsx
+│   ├── BrowseBooks.jsx
+│   ├── BookDetails.jsx
+│   └── AddBooks.jsx
+│
+├── utils
+│   ├── store.js
+│   └── bookSlice.js
+│
+├── data
+│   └── books.js
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_LINK
+```
+
+Go to project folder:
+
+```bash
+cd online-library
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## ▶️ Run Project
+
+Start development server:
+
+```bash
+npm run dev
+```
+
+Open in browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📱 Responsive Design
+
+The application is optimized for:
+
+* Mobile devices
+* Tablets
+* Desktop screens
+
+Built using Tailwind CSS responsive utilities.
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## 👨‍💻 Author
+
+deepak goyal
+
+---
+
+## 📝 Notes
+
+* `node_modules` is not included in the repository.
+* Books data is stored using dummy data.
+* Redux Toolkit is used for managing book state.
