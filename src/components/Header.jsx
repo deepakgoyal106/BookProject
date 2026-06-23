@@ -1,12 +1,11 @@
-import "./Header.css";
 import {Link} from 'react-router-dom';
 function Header(){
-    return(<div className="header">
-        <ul>
-            <Link to="/"><li>Home</li></Link>
-            <Link to="/browse"><li>Browse Books</li></Link>
-            <Link to="/add"><li>Add Books</li></Link>
-        </ul>
+    return(<div className="bg-blue-600 text-white p-4 flex gap-6 justify-center">
+       
+            <Link to="/home">Home</Link>
+            <Link to="/browse">Browse Books</Link>
+            <Link to="/add">Add Books</Link>
+       
     </div>)
 }
 
