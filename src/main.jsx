@@ -10,8 +10,6 @@ import BookDetails from './components/BookDetails.jsx';
 import {Provider} from "react-redux";
 import {store} from "./utils/store.js";
 
-
-
 //routing configuration
 const appRouter = createBrowserRouter([
   {
