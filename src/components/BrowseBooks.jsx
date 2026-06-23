@@ -110,8 +110,6 @@ function BrowseBooks(){
 
             </p>
 
-
-
             <p>
 
                 ⭐ {book.rating}
