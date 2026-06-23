@@ -65,34 +65,6 @@ The application allows users to browse books, search books, view book details, a
 
 ---
 
-## 📂 Project Structure
-
-```
-src
-│
-├── components
-│   ├── Header.jsx
-│   └── Error.jsx
-│
-├── pages
-│   ├── HomePage.jsx
-│   ├── BrowseBooks.jsx
-│   ├── BookDetails.jsx
-│   └── AddBooks.jsx
-│
-├── utils
-│   ├── store.js
-│   └── bookSlice.js
-│
-├── data
-│   └── books.js
-│
-├── App.jsx
-└── main.jsx
-```
-
----
-
 ## ⚙️ Installation
 
 Clone the repository:
